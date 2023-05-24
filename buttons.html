@@ -3,11 +3,14 @@
         background-color: rgb(184, 9, 9);
         color:white;
         border :none;
-        height: 36px;
-        width : 105px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px;        
         border-radius: 2px;
         cursor: pointer;
         margin-right: 5px;  
+        vertical-align: top;
         
         transition: opacity 0.15s;
     }
@@ -23,11 +26,15 @@
         border-color :blue;
         border-style:solid;
         border-width: 1px;
-        height: 36px;
-        width : 105px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 9px;
+        padding-bottom: 9px;        
+        border-radius: 2px;
         border-radius: 2px;
         cursor: pointer;
         margin-right: 5px; 
+        vertical-align: top;
         
         transition: background-color 0.15s , color 0.15s , opacity 0.15s;
 
@@ -48,12 +55,15 @@
         color:white;
         border: none;
         border-radius:26px;
-        height:36px;
-        width : 105px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 9px;
+        padding-bottom: 9px; 
         font-weight: bold;
         font-size: 15px;
         cursor: pointer;
         margin-right: 10px;
+        vertical-align: top;
         transition: box-shadow 0.15s;
     }
     .tweet-button:hover{
@@ -192,7 +202,145 @@
         background-color: rgba(10,102, 194,0.2);
 
     }
-    
+    a{
+        color: rgb(0, 113, 133); 
+        margin-right: 5px; 
+    }
+    .page-back{
+        background-color: white;
+        color: black;
+        border-color: grey;
+        border-radius: 2px;
+        border-width: 1px;
+        border-style: solid;
+        padding-left: 4px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-right: 4px;
+        margin-right: 15px;
+
+    }
+    .page-next{
+        background-color: white;
+        color: black;
+        border-color: grey;
+        border-radius: 2px;
+        border-width: 1px;
+        border-style: solid;
+        padding-left: 4px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-right: 4px;
+        margin-left: 15px;
+    }
+    .stretch{
+        background-color: green;
+        color: white;
+        border:none;
+        padding-left: 12px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 12px;
+        vertical-align: top;
+        cursor: pointer;
+        
+
+        transition: padding-left 1s,
+        padding-top 1s,
+        padding-bottom 1s,
+        padding-right 1s;
+
+    }
+    .stretch:hover{       
+        
+        padding-left: 24px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-right: 24px;
+       
+
+    }
+    .shadow{
+        background-color: green;
+        color: white;
+        border: none;
+        padding-left: 12px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 12px;
+        cursor: pointer;
+        box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+    }
+    .shadow:active{
+        margin-top: 3px;
+        margin-left: 3px;
+        box-shadow: none;
+        
+
+    }
+    .one-button{
+        background-color: green;
+        color: white;
+        border: none;
+        padding-left: 12px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 12px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+        transition: padding 0.30s, margin 0.30s;
+
+    }
+    .one-button:hover{
+        padding-right:22px;
+        padding-left:22px;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+    .two-button{
+        background-color: green;
+        color: white;
+        border: none;
+        padding-left: 12px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 12px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+        transition: padding 0.30s, margin 0.30s;
+
+    }
+    .two-button:hover{
+        padding-right:22px;
+        padding-left:22px;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+    .three-button{
+        background-color: green;
+        color: white;
+        border: none;
+        padding-left: 12px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 12px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+        transition: padding 0.30s, margin 0.30s;
+
+    }
+    .three-button:hover{
+        padding-right:22px;
+        padding-left:22px;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
 
 
 
@@ -263,6 +411,33 @@
         </td>
         
 
+        
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>
+            <button class="page-back">Back</button>
+            <a href="">1</a>
+            <a href="">2</a>
+            <a href="">3</a>
+            <a href="">4</a>
+            <button class="page-next">Next</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button class="stretch">Stretch</button>
+        </td>
+        <td>
+            <button class="shadow">Shadow</button>
+        </td>
+        <td class="bootstrap-td">
+            <button class="one-button">one</button>
+            <button class="two-button">two</button>
+            <button class="three-button">Three</button>
+
+        </td>
         
     </tr>
 </table>
