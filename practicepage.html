@@ -168,7 +168,93 @@
                 border:none;
                 box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);  
                 margin-bottom: 20px;           
-               
+            }
+            #input-8d{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 16px;
+                padding-left: 16px;
+                padding-right: 16px;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                border-radius: 8px;
+                border-style: solid;
+                border-color: rgb(200, 200, 200);
+                border-width: 1px;
+                
+                margin-bottom: 10px;
+
+            }
+            .name-8d{
+                width: 148px;                             
+            }
+            
+            .email-8d{
+                display: block;
+                width: 335px;
+            }
+            .button-8d{
+                border:none;
+                
+                background-color: rgb(47, 127, 231);
+                color: white;
+                border-radius: 8px;
+                width: 370px;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 18px;
+                font-weight: bold;
+                margin-bottom: 40px;
+            }
+            .text-8e{
+                font-family: arial;
+                font-size: 36px;
+                margin-bottom: 20px;
+            }
+            .pickup-destination-8e{
+                font-family: arial;
+                background-color: rgb(240, 240, 240);
+                padding-left: 16px;
+                padding-right: 16px;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                font-size: 16px;
+                /* border:none; */
+                display: block;
+                width: 400px;
+                margin-bottom: 10px;
+            }
+            
+            #destination-8e{              
+                margin-bottom: 30px;
+            }
+            .button-uberrequest-8e{
+                background-color: black;
+                color: white;
+                border: none;
+                border-end-start-radius: 2px;
+                height: 36px;
+                width: 105px;
+                cursor:pointer;
+                margin-right: 5px;
+                transition: opacity 0.20s;
+            }
+            .button-uberrequest-8e:hover{
+                opacity: 0.7;
+            }
+            .button-schedule-8e{
+                background-color: rgb(240, 240, 240);
+                color: black;
+                border: none;
+                border-radius: 2px;
+                height: 36px;
+                width: 130px;
+                cursor:pointer;
+                margin-right: 5px;
+                transition: opacity 0.20s;
+            }
+            .button-schedule-8e:hover{
+                opacity: 0.7;
             }
         </style>
 
@@ -211,6 +297,21 @@
 
         
         <img src="thumbnail/google-logo.png" class="thumbnail-8c">
-        <input type="text" class="input-8c" placeholder="Search Google or type a URL">
+        <input type="text" class="input-8c" placeholder="Search Google or type a URL"><br>
+        
+        <input type="text" id="input-8d" class="name-8d" placeholder="First Name">
+        <input type="text" id="input-8d" class="name-8d" placeholder="Last Name">
+        <input type="text" id="input-8d" class="email-8d" placeholder="Email">
+        <button class="button-8d"> Sign Up</button><br>
+
+        <p class="text-8e">
+            Request a ride now
+        </p>
+        <input  type="text" class="pickup-destination-8e"  placeholder="Enter pickup location">
+        <input  type="text" class="pickup-destination-8e" id="destination-8e" placeholder="Enter destination">
+        <button class="button-uberrequest-8e"> Request now</button>
+        <button class="button-schedule-8e">Schedule for later</button>
+
+
     </body>
 </html>
