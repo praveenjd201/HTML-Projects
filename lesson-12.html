@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<htmL>
+    <head>
+        <title>lesson-12</title>
+        <style>
+            .container-flex{
+                display: flex;
+                flex-direction: row;  
+                margin-top: 20px;              
+            }
+            .left-12a{
+                background-color: skyblue;
+                width: 200px;
+            }
+            .right-12a{
+                background-color: lightpink;
+                width: 75px;
+            }
+           
+            .item1-12b{
+                background-color: skyblue;
+                width: 50px;
+            }
+            .item2-12b{
+                background-color: lightpink;
+                flex:1;
+            }
+            .item3-12b{
+                background-color: skyblue;
+                width: 75px;
+                  
+            }
+            .container-flex-12c{
+                display: flex;
+                flex-direction: row;  
+                margin-top: 20px;   
+                justify-content: space-between;
+                border-color: grey;
+                border-style: solid;
+                border-width: 1px;
+            }
+
+            .item-12c{     
+                background-color: lightpink;       
+
+            }
+            .container-flex-12d{
+                display: flex;
+                flex-direction: row;  
+                margin-top: 20px;   
+                justify-content: space-between;
+                border-color: grey;
+                border-style: solid;
+                border-width: 1px;
+                height: 50px;
+                align-items: center;
+            }
+            .item-12d{
+                background-color: lightpink;
+            }
+            .container-12e{
+                margin-top: 20px;
+                width: 300px;
+                box-shadow: 0px 0px 6px rgba(0, 0 ,0 ,0.5);
+                border-radius: 5px;
+            }
+            .flex-12e{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 6px 12px;
+            }
+            .description{
+                margin-left: 6px;
+                margin-top: 6px;
+                margin-bottom: 12px;
+            }
+            .notification{
+                
+                border: none;
+                background-color: rgb(67, 109, 171);                
+                border-radius: 10px;
+                padding-top:3px;
+                padding-bottom:3px;
+                padding-left:9px;
+                padding-right:9px;
+
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="container-flex">
+            <div class="left-12a">
+                200px
+            </div>
+            <div class="right-12a">
+                75px
+            </div>
+        </div>
+
+        <div class="container-flex">
+            <div class="item1-12b">
+                item1
+            </div>
+            <div class="item2-12b">
+                item2
+            </div>
+            <div class="item3-12b">
+                item3
+            </div>
+        </div>
+        <div class="container-flex-12c">
+            <div class="item-12c">
+                item1
+            </div>
+            <div class="item-12c">
+                item2
+            </div>
+            <div class="item-12c">
+                item3
+            </div>
+            <div class="item-12c">
+                item4
+            </div>
+        </div>
+
+        <div class="container-flex-12d">
+            <div class="item-12d">
+                item1
+            </div>
+            <div class="item-12d">
+                item2
+            </div>
+           
+        </div>
+
+        <div style="margin-top:43px">
+            <span style="color:red" > <u>Challenge Exercises</u></span>
+        </div>
+
+        <div class="container-12e">
+            <div class="flex-12e">
+                <div class="description">Home</div>
+                <div class="notification">14</div>
+            </div>
+            <div class="flex-12e">
+                <div class="description">Noticications</div>
+                <div class="notification">3</div>
+            </div>
+
+            <div class="flex-12e">
+                <div class="description">Messages</div>
+                <div class="notification">5</div>
+            </div>
+
+
+        </div>
+        
+    </body>
+</htmL>
