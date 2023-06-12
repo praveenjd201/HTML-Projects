@@ -59,10 +59,11 @@
                 background-color: lightpink;
             }
             .container-12e{
-                margin-top: 20px;
+                margin-top: 20px ;
                 width: 300px;
                 box-shadow: 0px 0px 6px rgba(0, 0 ,0 ,0.5);
                 border-radius: 5px;
+                margin-bottom: 40px;
             }
             .flex-12e{
                 display: flex;
@@ -86,6 +87,93 @@
                 padding-right:9px;
 
             }
+            .container-12g{
+                width: 400px;
+            }
+            p{
+                margin: 0px;
+                margin-right: 100px;
+                font-size: 14px;
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .flex-12g{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-bottom: 12px;
+                
+            }
+            .thumbnail-container-12g{
+                width: 50px;
+                margin-right: 10px;
+            }
+            .thumbnail-12g{
+                width: 100%;
+                border-radius: 25px;
+                object-fit: contain;
+                object-position: center;
+            }
+            .details-container-12g{
+                flex: 1;
+            }
+            .follow-container-12g{
+                margin-right: 10px;
+            }
+            .follow-12g{
+                background-color: rgb(88, 124, 230);
+                border: none;
+                border-radius: 6px;
+                padding: 6px 12px;
+                color: white;
+                cursor: pointer;
+            }
+            
+            .container-12f{
+                margin: 40px 10px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                background-color: rgb(139, 90, 172);
+                height: 45px;
+            }.left-12f{
+                margin-left: 12px;
+                color: white;
+                margin-right: 70px;
+                font-weight: bold;
+                font-family: arial;
+                font-size: 14px;
+            }
+            .middle-12f{
+                display: flex;
+                flex: 1;
+                margin-right: 70px;
+            }
+            .search-12f{               
+                flex: 1;
+                max-width: 1000px;
+                height: 20px;
+                border-radius: 12px;
+                border: none;
+                padding-left: 12px;
+            }
+            .right-12f{
+                margin-right: 12px;
+
+            }
+            .download-12f{
+                height: 26px;
+                color:white;
+                background-color:  rgb(139, 90, 172);
+                border-color: white;
+                border-style: solid;
+                border-width: 1px;
+                padding: 6px 12px;
+                font-size: 12px;
+                font-family: Arial, Helvetica, sans-serif;
+                cursor: pointer;
+            }
+            
         </style>
 
     </head>
@@ -152,8 +240,92 @@
             <div class="flex-12e">
                 <div class="description">Messages</div>
                 <div class="notification">5</div>
+            </div>  
+        </div>
+        
+        <div class="container-12g" >
+            <div class="flex-12g">
+                <div class="thumbnail-container-12g">
+                    <img src="thumbnail/ajtihkumar.jpeg" class="thumbnail-12g"> 
+                </div>
+                <div class="details-container-12g">
+                    <p>Ajith Kumar</p>
+                    <p style="
+                    font-weight: 100;
+                    color: grey;
+                    padding: 4px 0px;
+                    ">Ultimate star</p>
+                    <p style="
+                    font-weight: 100;
+                    color: grey;
+                    
+                    ">mass</p>
+                </div>
+                <div class="follow-container-12g">
+                    <button class="follow-12g">
+                        Follow
+                    </button>
+                </div>
+            </div>
+            <div class="flex-12g">
+                <div class="thumbnail-container-12g">
+                    <img src="thumbnail/vijay.jpeg" class="thumbnail-12g"> 
+                </div>
+                <div class="details-container-12g">
+                    <p>vijay Kumar</p>
+                    <p style="
+                    font-weight: 100;
+                    color: grey;
+                    padding: 4px 0px;
+                    ">Illaya Thalapathy</p>
+                    <p style="
+                    font-weight: 100;
+                    color: grey;                    
+                    ">Dance</p>
+                </div>
+                <div class="follow-container-12g">
+                    <button class="follow-12g">
+                        Follow
+                    </button>
+                </div>
             </div>
 
+            <div class="flex-12g">
+                <div class="thumbnail-container-12g">
+                    <img src="thumbnail/vikram.jpeg" class="thumbnail-12g"> 
+                </div>
+                <div class="details-container-12g">
+                    <p>Vikaram Cheeyan</p>
+                    <p style="
+                    font-weight: 100;
+                    color: grey;
+                    padding: 4px 0px;
+                    ">Dedication</p>
+                    <p style="
+                    font-weight: 100;
+                    color: grey;
+                    
+                    ">Acting</p>
+                </div>
+                <div class="follow-container-12g">
+                    <button class="follow-12g">
+                        Follow
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-12f">
+            <div class="left-12f">
+                Home
+            </div>
+            <div class="middle-12f">
+                <input type="text" class="search-12f" placeholder="Search">
+            </div>
+            <div class="right-12f">
+                
+                <Button class="download-12f"> Download</Button>
+            </div>
 
         </div>
         
