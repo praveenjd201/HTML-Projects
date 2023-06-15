@@ -13,10 +13,20 @@
 }
 .thumbnail-row{
     margin-bottom: 10px;
+    position: relative;
 }
 .thumbnail{                     
     width: 100%;  
     
+}
+.video-duration{
+    position: absolute;
+    bottom:8px;
+    right: 4px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 4px;
 }
 
 .video-info-grid{

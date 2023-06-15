@@ -4,6 +4,15 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    border-bottom-color: rgb(222, 222, 222);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    position: fixed;
+    left: 0;
+    top:0;
+    right: 0;
+    background-color: white;
+    z-index: 1000;
     
 }
 .left-section{
@@ -42,6 +51,7 @@
     font-family: Roboto,Arial;
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
+    width: 0;
 }
 .header-searchbar::placeholder{
     font-family: Roboto,Arial;
@@ -76,20 +86,41 @@
     
 }
 .right-section{
-    background-color: aqua;
-    width: 210px;  
+    margin-right: 12px;
+
+    width: 190px;  
     display: flex;
-    
+    justify-content: space-between;
+    flex-shrink: 0;
     align-items: center;  
 }
 .upload-icon{
-    height: 30px;
+    height: 25px;
 }
 .youtube-apps-icon{
-    height: 30px;
+    height: 25px;
+}
+.notifications-icons-container{
+    position: relative;
 }
 .notifications-icon{
-    height: 30px;
+    height: 25px;
+    
+}
+.notifications-icons-notify{
+    background-color: #cc0000;
+    border-radius: 80px;
+    position: absolute;
+    top: -3px;
+    right: -7px;
+    color: white;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    padding: 1px 5px;
+    pointer-events: none;
 }
 .my-channel-icon{
     height: 30px;
