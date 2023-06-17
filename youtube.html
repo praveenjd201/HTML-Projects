@@ -13,7 +13,7 @@
       
     </head>
     <body>
-      <div class="header">
+      <header class="header">
         <div class="left-section">     
           <img src="icons/hamburger-menu.svg" class="hamburger-menu">
           <img src="icons/youtube-logo.svg" class="youtube-logo">
@@ -22,27 +22,36 @@
           <input type="text" class="header-searchbar" placeholder="Search">
           <button class="search-button">
             <img src="icons/search.svg" class="search-icon">
+            <div class="tooltip"> search     </div>
           </button>
+          
           <button class="voice-search-button">
             <img src="icons/voice-search-icon.svg" class="voice-search-icon">
+            <div class="tooltip"> Search with your voice     </div>
           </button>
         </div>
         <div class="right-section">
-          <img src="icons/upload.svg" class="upload-icon">
-          <img src="icons/youtube-apps.svg" class="youtube-apps-icon">
+          <div class="upload-icon-container"> 
+            <img src="icons/upload.svg" class="upload-icon">
+            <div class="tooltip"> Create     </div>
+          </div>
+          <div class="youtube-apps-icon-container">
+            <img src="icons/youtube-apps.svg" class="youtube-apps-icon">    
+            <div class="tooltip"> YouTube apps     </div>
+          </div>
+            
           <div class="notifications-icons-container">
             <img src="icons/notifications.svg" class="notifications-icon">
             <div class="notifications-icons-notify">
               3
-            </div>
+            </div>     
+            <div class="tooltip"> Notifications    </div>          
           </div>
-        
-          
           <img src="icons/my-channel.jpeg" class="my-channel-icon">
         </div>
-      </div>
+      </header>
 
-      <div class="sidebar">
+      <nav class="sidebar">
         <div class="sidebar-link">
           <img src="icons/home.svg" class="sidebar-icons">
           <div>Home</div>
@@ -68,166 +77,163 @@
           <div>Library</div>
         </div>
 
-      </div>
-
-      <div class="page-grid">  
-        <div class="video-privew">
-          <div class="thumbnail-row">
-            <img src="thumbnail/thumbnail-1.webp" class="thumbnail">
-            <div class="video-duration">
-              <p>14:20</p>
+      </nav>
+      <main>
+        <section class="page-grid">  
+          <div class="video-privew">
+            <div class="thumbnail-row">
+              <img src="thumbnail/thumbnail-1.webp" class="thumbnail">
+              <div class="video-duration">
+                <p>14:20</p>
+              </div>
             </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="channel-profile-pic" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-1.jpeg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">                
+                  Talking Tech and AI with Google CEO Sundar Pichai!
+                </p>
+                <p class="video-channel">                
+                  Marques Brownlee
+                </p>
+                <p class="video-stats">                
+                  3.4M views · 6 months ago
+                </p>
+              </div>
+            </div>      
           </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="channel-profile-pic" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-1.jpeg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">                
-                Talking Tech and AI with Google CEO Sundar Pichai!
-              </p>
-              <p class="video-channel">                
-                Marques Brownlee
-              </p>
-              <p class="video-stats">                
-                3.4M views · 6 months ago
-              </p>
-            </div>
-          </div>      
-        </div>
 
-        <div class="video-privew">
-          <div class="thumbnail-row">
-            <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-2.webp" class="thumbnail">
-            <div class="video-duration">
-              <p>8:22</p>
-            </div>       
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="channel-profile-pic" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-2.jpeg">
+          <div class="video-privew">
+            <div class="thumbnail-row">
+              <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-2.webp" class="thumbnail">
+              <div class="video-duration">
+                <p>8:22</p>
+              </div>       
             </div>
-            <div class="video-info">
-              <p class="video-title">                
-                Try Not To Laugh Challenge #9
-              </p>
-              <p class="video-channel">                
-                Markiplier
-              </p>
-              <p class="video-stats">                
-                19M views · 4 years ago
-              </p>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="channel-profile-pic" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-2.jpeg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">                
+                  Try Not To Laugh Challenge #9
+                </p>
+                <p class="video-channel">                
+                  Markiplier
+                </p>
+                <p class="video-stats">                
+                  19M views · 4 years ago
+                </p>
+              </div>
+            </div>      
+          </div>  
+          
+          <div class="video-privew">
+            <div class="thumbnail-row">
+              <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-2.webp" class="thumbnail">
+              <div class="video-duration">
+                <p>8:22</p>
+              </div>
             </div>
-          </div>      
-        </div>  
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="channel-profile-pic" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-2.jpeg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">                
+                  Try Not To Laugh Challenge #9
+                </p>
+                <p class="video-channel">                
+                  Markiplier
+                </p>
+                <p class="video-stats">                
+                  19M views · 4 years ago
+                </p>
+              </div>
+            </div>      
+          </div> 
+
+          <div class="video-privew">
+            <div class="thumbnail-row">
+              <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-2.webp" class="thumbnail">
+              <div class="video-duration">
+                <p>8:22</p>
+              </div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="channel-profile-pic" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-2.jpeg">
+                
+              </div>
+              <div class="video-info">
+                <p class="video-title">                
+                  Try Not To Laugh Challenge #9
+                </p>
+                <p class="video-channel">                
+                  Markiplier
+                </p>
+                <p class="video-stats">                
+                  19M views · 4 years ago
+                </p>
+              </div>
+            </div>      
+          </div> 
+
+          <div class="video-privew">
+            <div class="thumbnail-row">
+              <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-2.webp" class="thumbnail">
+              <div class="video-duration">
+                <p>8:22</p>
+              </div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="channel-profile-pic" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-2.jpeg">
+                
+              </div>
+              <div class="video-info">
+                <p class="video-title">                
+                  Try Not To Laugh Challenge #9
+                </p>
+                <p class="video-channel">                
+                  Markiplier
+                </p>
+                <p class="video-stats">                
+                  19M views · 4 years ago
+                </p>
+              </div>
+            </div>      
+          </div> 
+
+          <div class="video-privew">
+            <div class="thumbnail-row">
+              <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-2.webp" class="thumbnail">
+              <div class="video-duration">
+                <p>8:22</p>
+              </div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="channel-profile-pic" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-2.jpeg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">                
+                  Try Not To Laugh Challenge #9
+                </p>
+                <p class="video-channel">                
+                  Markiplier
+                </p>
+                <p class="video-stats">                
+                  19M views · 4 years ago
+                </p>
+              </div>
+            </div>      
+          </div> 
         
-        <div class="video-privew">
-          <div class="thumbnail-row">
-            <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-2.webp" class="thumbnail">
-            <div class="video-duration">
-              <p>8:22</p>
-            </div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="channel-profile-pic" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-2.jpeg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">                
-                Try Not To Laugh Challenge #9
-              </p>
-              <p class="video-channel">                
-                Markiplier
-              </p>
-              <p class="video-stats">                
-                19M views · 4 years ago
-              </p>
-            </div>
-          </div>      
-        </div> 
-
-        <div class="video-privew">
-          <div class="thumbnail-row">
-            <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-2.webp" class="thumbnail">
-            <div class="video-duration">
-              <p>8:22</p>
-            </div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="channel-profile-pic" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-2.jpeg">
-              <div class="video-duration">
-                <p>8:22</p>
-              </div>
-            </div>
-            <div class="video-info">
-              <p class="video-title">                
-                Try Not To Laugh Challenge #9
-              </p>
-              <p class="video-channel">                
-                Markiplier
-              </p>
-              <p class="video-stats">                
-                19M views · 4 years ago
-              </p>
-            </div>
-          </div>      
-        </div> 
-
-        <div class="video-privew">
-          <div class="thumbnail-row">
-            <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-2.webp" class="thumbnail">
-            <div class="video-duration">
-              <p>8:22</p>
-            </div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="channel-profile-pic" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-2.jpeg">
-              <div class="video-duration">
-                <p>8:22</p>
-              </div>
-            </div>
-            <div class="video-info">
-              <p class="video-title">                
-                Try Not To Laugh Challenge #9
-              </p>
-              <p class="video-channel">                
-                Markiplier
-              </p>
-              <p class="video-stats">                
-                19M views · 4 years ago
-              </p>
-            </div>
-          </div>      
-        </div> 
-
-        <div class="video-privew">
-          <div class="thumbnail-row">
-            <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-2.webp" class="thumbnail">
-            <div class="video-duration">
-              <p>8:22</p>
-            </div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="channel-profile-pic" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-2.jpeg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">                
-                Try Not To Laugh Challenge #9
-              </p>
-              <p class="video-channel">                
-                Markiplier
-              </p>
-              <p class="video-stats">                
-                19M views · 4 years ago
-              </p>
-            </div>
-          </div>      
-        </div> 
-      
-      </div>     
+        </section>  
+      </main>   
         
     </body>
 </html>
